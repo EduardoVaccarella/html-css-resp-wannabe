@@ -1,0 +1,47 @@
+@media screen and (max-width: 420px) {
+
+    .row {
+        background-color: #F2F2CD;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        margin: 0;
+        width: 100vw;
+        padding: 0;
+    }
+
+    img {
+        margin-top: 10px;
+        max-width: 100%;
+        width: 100px;
+        height: auto;
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        float: none;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        width: 100%;
+    }
+
+    #steps, #row2 {
+        background-color: white;
+    }
+
+    #why {
+        background-color: #F2F2CD;
+    }
+
+    #why img {
+        width: 100px;
+        height: auto;
+    }
+
+}
